@@ -1,6 +1,6 @@
 package singlyLinkedListReversal;
 
-public class singlyLinkedListReversal {
+public class SinglyLinkedListReversal {
     Node head;
 
     static class Node {
@@ -50,7 +50,7 @@ public class singlyLinkedListReversal {
     }
 
     public static void main(String[] args) {
-        singlyLinkedListReversal list = new singlyLinkedListReversal();
+        SinglyLinkedListReversal list = new SinglyLinkedListReversal();
 
         // Adicionando elementos à lista
         list.append(1);

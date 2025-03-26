@@ -1,7 +1,7 @@
 package floydCycleDetectionAlgorithm;
 
 
-public class floydCycleDetectionAlgorithm {
+public class FloydCycleDetectionAlgorithm {
     Node head;
 
     static class Node {
@@ -68,7 +68,7 @@ public class floydCycleDetectionAlgorithm {
     }
 
     public static void main(String[] args) {
-        floydCycleDetectionAlgorithm list = new floydCycleDetectionAlgorithm();
+        FloydCycleDetectionAlgorithm list = new FloydCycleDetectionAlgorithm();
 
         list.append(1);
         list.append(2);
@@ -76,7 +76,7 @@ public class floydCycleDetectionAlgorithm {
         list.append(4);
         list.append(5);
 
-        list.createCycle(1);
+        list.createCycle(3);
 
         if (list.floydDetectCycle()) {
             System.out.println("Ciclo detectado na lista!");
