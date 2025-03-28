@@ -1,4 +1,4 @@
-package singlyLinkedListReversal;
+package singly_linked_list_reversal;
 
 public class SinglyLinkedListReversal {
     Node head;

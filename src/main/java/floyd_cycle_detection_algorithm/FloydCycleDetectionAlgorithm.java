@@ -1,4 +1,4 @@
-package floydCycleDetectionAlgorithm;
+package floyd_cycle_detection_algorithm;
 
 
 public class FloydCycleDetectionAlgorithm {
